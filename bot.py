@@ -13,7 +13,7 @@ f = 'https://catalog.onliner.by/sdapi/catalog.api/search/videocard?desktop_gpu[0
 urls_list = ','.join([a,b,c,d,e,f])
 urls_list = urls_list.split(',')
 
-token_orig = '5182672884:AAFthdowZppUFxeU45qG_LcdM4wTZqLhBgI'
+token_orig = '#token'
 bot = telebot.TeleBot(token_orig)
 
 
